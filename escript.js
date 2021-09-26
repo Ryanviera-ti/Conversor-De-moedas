@@ -44,14 +44,14 @@ function trocaDemoedas() {
     if (select.value === "US$ Dólar Americano") {
         textoMoedas.innerHTML = "Dólar Americano"
         let bandeiraMoedas = document.getElementById("bandeira-moedas")
-        bandeiraMoedas.src = "./Image/eua.png"
+        bandeiraMoedas.src = "./img/eua.png"
 
     }
 
     if (select.value === "€ Euro") {
         textoMoedas.innerHTML = "Euro"
         let bandeiraMoedas = document.getElementById("bandeira-moedas")
-        bandeiraMoedas.src = "./Image/euro.png"
+        bandeiraMoedas.src = "./img/euro.png"
 
     }
       converterMoedas()
